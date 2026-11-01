@@ -1,0 +1,18 @@
+[
+  {
+    "code": "WELCOME10",
+    "percent": 10,
+    "products": ["*"],
+    "max_uses": 200,
+    "expires": "2027-03-31T23:59:00+05:30",
+    "active": true
+  },
+  {
+    "code": "FRIEND500",
+    "flat_off": 500,
+    "products": ["ship-saas-30"],
+    "max_uses": 50,
+    "expires": "2026-12-31T23:59:00+05:30",
+    "active": true
+  }
+]

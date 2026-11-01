@@ -1,0 +1,57 @@
+{
+  "slug": "ui-kit-pro",
+  "status": "coming_soon",
+  "type": "template",
+  "name": "Pixel Pro UI Kit",
+  "tagline": "Figma components and matching React code",
+  "headline": "Every screen your app needs, already designed and already coded",
+  "subhead": "240 Figma components with matching React and CSS. Join the waitlist and get launch pricing before anyone else.",
+  "hero_word": "PIXEL",
+  "cta_label": "Join the waitlist",
+  "theme": {
+    "hero_bg": "#B3125B",
+    "hero_ink": "#FFF0F7",
+    "accent": "#7CF7D4",
+    "accent_ink": "#05302A",
+    "paper": "#FFF4F9",
+    "ink": "#3A0A24",
+    "muted": "#7A4A62"
+  },
+  "pricing": {
+    "currency": "INR",
+    "list_price": 3999,
+    "early_access_price": 2499,
+    "early_access_ends": "2027-02-28T23:59:00+05:30",
+    "seats_total": 300
+  },
+  "stats": [
+    { "value": 240, "suffix": "", "label": "Figma components" },
+    { "value": 38, "suffix": "", "label": "full screens" },
+    { "value": 2, "suffix": "", "label": "themes, light and dark" }
+  ],
+  "outcomes": ["Designed screens", "Matching React code", "Light and dark themes", "Lifetime updates"],
+  "problem": {
+    "title": "Designers and developers keep rebuilding the same screens.",
+    "body": "Sign-in, settings, billing, empty states. This kit gives both sides the same source of truth, so what ships looks like what was designed."
+  },
+  "modules": [],
+  "includes": [
+    { "title": "Figma library", "detail": "Variables, auto-layout and documented components." },
+    { "title": "React components", "detail": "Accessible, typed, and unstyled where it helps." }
+  ],
+  "audience": {
+    "for": ["Developers who design their own product", "Small teams without a design system"],
+    "not_for": []
+  },
+  "instructor": { "name": "", "role": "", "initials": "", "bio": "" },
+  "testimonials": [],
+  "faq": [
+    { "q": "When does it launch?", "a": "Waitlist members get an email the day it opens, along with a launch discount." }
+  ],
+  "guarantee": { "days": 14, "text": "Not what you expected? Full refund within 14 days." },
+  "delivery": { "type": "files", "files": [], "access_url": "", "instructions": "" },
+  "seo": {
+    "title": "Pixel Pro UI Kit: Figma components with matching React code",
+    "description": "240 Figma components with matching React and CSS. Join the waitlist for launch pricing."
+  }
+}

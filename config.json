@@ -1,0 +1,72 @@
+{
+  "server": {
+    "host": "0.0.0.0",
+    "port": 8000,
+    "workers": 4,
+    "timeout": 60,
+    "forwarded_allow_ips": "127.0.0.1"
+  },
+  "site": {
+    "name": "Kiln",
+    "tagline": "Skills, fired hard.",
+    "home_product": "ship-saas-30",
+    "support_email": "support@example.com",
+    "legal_name": "Your Company Pvt. Ltd.",
+    "address": "Add your registered business address here",
+    "support_phone": "",
+    "price_note": "One-time payment. Inclusive of taxes."
+  },
+  "logs": {
+    "timing_file": "logs/timing.jsonl",
+    "error_file": "logs/errors.jsonl"
+  },
+  "database": {
+    "path": "data/store.db",
+    "busy_timeout_ms": 8000
+  },
+  "catalog": {
+    "products_dir": "products",
+    "coupons_file": "utility/coupons.json",
+    "reload_check_s": 5
+  },
+  "pricing": {
+    "min_amount_paise": 100,
+    "max_coupon_percent": 90
+  },
+  "razorpay": {
+    "api_base": "https://api.razorpay.com/v1",
+    "checkout_script": "https://checkout.razorpay.com/v1/checkout.js",
+    "timeout_s": 15,
+    "retry_times": 3,
+    "retry_delay_s": 0.8
+  },
+  "security": {
+    "max_body_bytes": 65536,
+    "session_ttl_s": 28800,
+    "download_token_ttl_s": 86400,
+    "max_downloads_per_order": 20,
+    "hsts_max_age_s": 63072000,
+    "rate_limits": {
+      "checkout_quote": { "limit": 30, "window_s": 60 },
+      "checkout_order": { "limit": 8, "window_s": 60 },
+      "checkout_verify": { "limit": 20, "window_s": 60 },
+      "lead": { "limit": 5, "window_s": 60 },
+      "admin_login": { "limit": 5, "window_s": 300 },
+      "download": { "limit": 30, "window_s": 60 },
+      "order_status": { "limit": 60, "window_s": 60 },
+      "global": { "limit": 240, "window_s": 60 }
+    }
+  },
+  "delivery": {
+    "deliverables_dir": "deliverables"
+  },
+  "mailer": {
+    "timeout_s": 15,
+    "retry_times": 3,
+    "retry_delay_s": 2.0
+  },
+  "static": {
+    "immutable_max_age_s": 31536000,
+    "default_max_age_s": 3600
+  }
+}

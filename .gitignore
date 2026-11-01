@@ -1,0 +1,18 @@
+# secrets and local state
+.env
+data/*
+!data/.gitkeep
+logs/*.jsonl
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+
+# frontend
+frontend/node_modules/
+frontend/dist/
+
+# real paid files stay out of git; the two sample products' files are force-added so the demo works
+deliverables/*
+!deliverables/.gitkeep

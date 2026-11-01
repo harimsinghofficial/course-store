@@ -1,0 +1,99 @@
+{
+  "slug": "quiet-founder-ebook",
+  "status": "live",
+  "type": "ebook",
+  "name": "The Quiet Founder's Playbook",
+  "tagline": "An ebook for people who build without a megaphone",
+  "headline": "Grow a small business without living online",
+  "subhead": "Ninety pages on getting customers through email, referrals and good work, with templates you can use this afternoon.",
+  "hero_word": "QUIET",
+  "cta_label": "Buy the ebook",
+  "theme": {
+    "hero_bg": "#0F3B2E",
+    "hero_ink": "#F2FFF8",
+    "accent": "#FFB000",
+    "accent_ink": "#241800",
+    "paper": "#F2F7F3",
+    "ink": "#0C241C",
+    "muted": "#46604F"
+  },
+  "pricing": {
+    "currency": "INR",
+    "list_price": 799,
+    "early_access_price": 499,
+    "early_access_ends": "2026-11-30T23:59:00+05:30"
+  },
+  "stats": [
+    { "value": 90, "suffix": "", "label": "pages, no filler" },
+    { "value": 14, "suffix": "", "label": "copy-paste templates" },
+    { "value": 2, "suffix": " hrs", "label": "to read cover to cover" }
+  ],
+  "outcomes": [
+    "A referral system that runs itself",
+    "Cold email that reads like a person wrote it",
+    "Pricing you stop apologising for",
+    "A weekly rhythm that fits around client work"
+  ],
+  "problem": {
+    "title": "You were told to post every day. You would rather do the work.",
+    "body": "Plenty of good businesses grow through a handful of loyal customers and the people they tell. This book shows how to build that on purpose, without a content calendar."
+  },
+  "modules": [
+    {
+      "title": "Why quiet works",
+      "duration": "Chapters 1-2",
+      "summary": "What word-of-mouth really is, and why it compounds when attention-based growth doesn't.",
+      "lessons": ["The trust ladder", "Where your next ten customers already are"]
+    },
+    {
+      "title": "The referral engine",
+      "duration": "Chapters 3-5",
+      "summary": "Ask for introductions in a way people are happy to answer.",
+      "lessons": ["The two-line ask", "Thank-you notes that get replies", "Referral partners, not affiliates"]
+    },
+    {
+      "title": "Email that gets answered",
+      "duration": "Chapters 6-8",
+      "summary": "Short, specific, human. Fourteen templates with the reasoning behind each.",
+      "lessons": ["First contact", "Following up without nagging", "Re-opening old conversations"]
+    }
+  ],
+  "includes": [
+    { "title": "The ebook (PDF)", "detail": "90 pages, readable on phone, tablet and e-reader." },
+    { "title": "14 email templates", "detail": "Plain text files you can paste into any email app." },
+    { "title": "Free updates", "detail": "Every revised edition, sent to the email you buy with." }
+  ],
+  "audience": {
+    "for": ["Freelancers and consultants", "Small agencies", "Solo product builders"],
+    "not_for": ["Anyone looking for viral growth tactics"]
+  },
+  "instructor": {
+    "name": "Meera Iyer",
+    "role": "Author",
+    "initials": "MI",
+    "bio": "Sample bio: replace this with your own."
+  },
+  "testimonials": [],
+  "faq": [
+    { "q": "What format is it?", "a": "A PDF, plus the templates as plain text files." },
+    { "q": "Can I get a refund?", "a": "Yes. Email us within 7 days if the book isn't useful to you." },
+    { "q": "Will it work on my Kindle?", "a": "The PDF opens on Kindle and every e-reader that supports PDF." }
+  ],
+  "guarantee": {
+    "days": 7,
+    "text": "Not useful? Email us within 7 days for a full refund."
+  },
+  "delivery": {
+    "type": "files",
+    "files": [
+      { "id": "book", "label": "The Quiet Founder's Playbook (PDF)", "filename": "quiet-founders-playbook.md" },
+      { "id": "templates", "label": "Email templates", "filename": "email-templates.md" }
+    ],
+    "access_url": "",
+    "instructions": "Download both files. The templates are plain text, so paste them anywhere."
+  },
+  "seo": {
+    "title": "The Quiet Founder's Playbook: grow without living online",
+    "description": "A 90-page ebook on getting customers through email, referrals and good work. Includes 14 templates."
+  }
+}

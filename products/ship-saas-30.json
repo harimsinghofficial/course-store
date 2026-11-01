@@ -1,0 +1,142 @@
+{
+  "slug": "ship-saas-30",
+  "status": "early_access",
+  "type": "course",
+  "name": "Ship Your First SaaS",
+  "tagline": "A 30-day build-and-launch course",
+  "headline": "Build, launch and charge for your first SaaS in 30 days",
+  "subhead": "Live-coded from empty folder to paying customers: FastAPI, a real database, Razorpay billing, and a launch plan you can run on a Monday.",
+  "hero_word": "SHIP",
+  "cta_label": "Get early access",
+  "theme": {
+    "hero_bg": "#2B2BFF",
+    "hero_ink": "#FFFFFF",
+    "accent": "#FFD60A",
+    "accent_ink": "#12123A",
+    "paper": "#F4F3FF",
+    "ink": "#12123A",
+    "muted": "#54547A"
+  },
+  "pricing": {
+    "currency": "INR",
+    "list_price": 14999,
+    "early_access_price": 7999,
+    "early_access_ends": "2026-12-15T23:59:00+05:30",
+    "seats_total": 100
+  },
+  "stats": [
+    { "value": 30, "suffix": " days", "label": "from empty folder to first invoice" },
+    { "value": 42, "suffix": "", "label": "recorded build sessions" },
+    { "value": 6, "suffix": "", "label": "working projects you keep" },
+    { "value": 100, "suffix": "", "label": "seats in the first cohort" }
+  ],
+  "outcomes": [
+    "A deployed SaaS with login and billing",
+    "Razorpay subscriptions that actually reconcile",
+    "A landing page that converts ad traffic",
+    "Postgres you are not afraid of",
+    "A launch checklist with dates on it",
+    "Code reviews on your own repo"
+  ],
+  "problem": {
+    "title": "Most side projects die in week three.",
+    "body": "Tutorials teach you a framework. They stop right before the parts that decide whether anyone pays: auth that doesn't leak, billing that handles failed payments, a deploy you can repeat, and a page that explains the product in ten seconds. This course is built around those parts, in the order you will hit them."
+  },
+  "modules": [
+    {
+      "title": "Pick a problem worth charging for",
+      "duration": "Days 1-3",
+      "summary": "Validate before you write code. Talk to five people, price the idea, and cut scope until it fits in a month.",
+      "lessons": ["The five-conversation test", "Pricing a product nobody has bought yet", "Scope cutting with a one-page spec"]
+    },
+    {
+      "title": "The API and the database",
+      "duration": "Days 4-10",
+      "summary": "FastAPI, Postgres and migrations, with the boring decisions made for you so you keep moving.",
+      "lessons": ["Project layout that survives growth", "Auth, sessions and password reset", "Background jobs without a queue cluster"]
+    },
+    {
+      "title": "Getting paid",
+      "duration": "Days 11-17",
+      "summary": "Razorpay orders, signature verification, webhooks, refunds and GST-friendly invoices.",
+      "lessons": ["One-time vs subscription billing", "Webhooks you can replay safely", "Failed payments and dunning emails"]
+    },
+    {
+      "title": "The product people see",
+      "duration": "Days 18-23",
+      "summary": "A fast front end, an onboarding flow that gets users to value in minutes, and analytics you will read.",
+      "lessons": ["Onboarding in under three minutes", "Page speed on a budget", "Events worth tracking, events to skip"]
+    },
+    {
+      "title": "Launch week",
+      "duration": "Days 24-30",
+      "summary": "Deploy, harden, announce. A day-by-day plan with the posts, emails and follow-ups written with you.",
+      "lessons": ["Zero-downtime deploys on one server", "Security checklist before the first user", "Your first ten customers, by name"]
+    }
+  ],
+  "includes": [
+    { "title": "42 recorded build sessions", "detail": "Lifetime access, captions included, download for offline." },
+    { "title": "Full source for six projects", "detail": "Including the billing and webhook code from this very store." },
+    { "title": "Two live Q&A calls a month", "detail": "Bring your repo. Recordings posted within a day." },
+    { "title": "Private community", "detail": "Ask questions, get unstuck, share what you shipped." },
+    { "title": "Launch templates", "detail": "Landing page, email sequence, pricing page and a launch-day checklist." }
+  ],
+  "audience": {
+    "for": [
+      "Developers who can build things but have never charged for one",
+      "Freelancers who want a product alongside client work",
+      "Founders who need to ship the first version themselves"
+    ],
+    "not_for": [
+      "Anyone who has never written code (start with a Python basics course first)",
+      "People looking for a no-code tool walkthrough"
+    ]
+  },
+  "instructor": {
+    "name": "Aarav Menon",
+    "role": "Founder and engineer",
+    "initials": "AM",
+    "bio": "Sample bio: replace this with your own. Eleven years building products for Indian startups, three of them acquired. Writes about shipping small and charging early."
+  },
+  "testimonials": [
+    {
+      "quote": "Sample testimonial: replace with real feedback from real students. The webhook lesson alone saved me a week.",
+      "name": "Sample Student",
+      "role": "Backend developer, Pune"
+    },
+    {
+      "quote": "Sample testimonial: replace with real feedback from real students. I had a paying customer by day 26.",
+      "name": "Sample Student",
+      "role": "Freelancer, Chennai"
+    },
+    {
+      "quote": "Sample testimonial: replace with real feedback from real students. Finally understood why my checkout kept double-charging.",
+      "name": "Sample Student",
+      "role": "Founder, Bengaluru"
+    }
+  ],
+  "faq": [
+    { "q": "When does the course start?", "a": "The first cohort starts on 15 January 2027. Early-access buyers get the pre-work and community access immediately." },
+    { "q": "What do I need to know already?", "a": "Comfortable with one programming language and the command line. We cover FastAPI, SQL and deployment from scratch." },
+    { "q": "What if I fall behind?", "a": "Everything is recorded and stays available for life. Live calls are optional." },
+    { "q": "How does the refund work?", "a": "Email us within 14 days of purchase and we refund the full amount, no questions asked." },
+    { "q": "Is there a GST invoice?", "a": "Yes. Your order page has a downloadable invoice once the payment is confirmed." }
+  ],
+  "guarantee": {
+    "days": 14,
+    "text": "Watch the first module. If it isn't for you, email us within 14 days for a full refund."
+  },
+  "delivery": {
+    "type": "both",
+    "files": [
+      { "id": "welcome", "label": "Welcome pack and pre-work (PDF)", "filename": "welcome-pack.md" },
+      { "id": "checklist", "label": "Launch checklist", "filename": "launch-checklist.md" }
+    ],
+    "access_url": "https://example.com/replace-with-your-course-platform-or-community-link",
+    "instructions": "Open the community link, introduce yourself, and start with Module 1. The pre-work takes about an hour."
+  },
+  "seo": {
+    "title": "Ship Your First SaaS: a 30-day build-and-launch course",
+    "description": "Go from an empty folder to paying customers in 30 days. FastAPI, Postgres, Razorpay billing and a launch plan. Early-access pricing for the first 100 seats."
+  }
+}
